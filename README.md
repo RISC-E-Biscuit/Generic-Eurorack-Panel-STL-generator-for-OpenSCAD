@@ -1,6 +1,6 @@
 # Generic-Eurorack-Panel-STL-generator-for-OpenSCAD
 
-This is A .scad (OpenSCAD) source for easy generation of 3U "Eurorack" generic panel CAD (STL files for 3D printer, LASER cutter, W.H.Y.)
+This is an OpenSCAD source (.scad/plaintext) for easy generation of 3U "Eurorack" generic panel CAD (STL files for 3D printer, LASER cutter, W.H.Y.)
 
 Use the customizer window to set various paremeters (panel width in HP, and so on)
 
