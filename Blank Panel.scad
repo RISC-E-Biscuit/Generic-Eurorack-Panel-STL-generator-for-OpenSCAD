@@ -37,7 +37,7 @@ module ScrewSlot(x,y,r,slotlen,res) { // For elongated
  difference() {
     translate([0,0,0])
     color(PanelColor)
-    cube([PanelWidth,PanelHeight,PanelThickness]);
+    cube([PanelWidth-0.2,PanelHeight,PanelThickness]);
      ScrewSlot(PanelScrewInsetX,PanelHeight-PanelScrewInsetY,PanelScrewHoleRadius,PanelScrewHoleSlot,Resolution);
      ScrewSlot(PanelWidth-PanelScrewInsetX,PanelHeight-PanelScrewInsetY,PanelScrewHoleRadius,PanelScrewHoleSlot,Resolution);
     ScrewSlot(PanelScrewInsetX,PanelScrewInsetY,PanelScrewHoleRadius,PanelScrewHoleSlot,Resolution);
